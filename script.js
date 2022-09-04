@@ -11,6 +11,9 @@ function getTranslationURL(text) {
   return translationURL;
 }
 
+const errorHandler = function () {
+  alert("Error Occured try after some time!!");
+};
 function getTranslation() {
   const inputText = inputEl.value;
   const newTranslationURL = getTranslationURL(inputText);
@@ -22,7 +25,8 @@ function getTranslation() {
       console.log(json);
       console.log(json.contents.translated);
       outputEl.innerHTML = json.contents.translated;
-    });
+    })
+    .catch(errorHandler);
 }
 
 button.addEventListener("click", getTranslation);
