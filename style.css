@@ -23,7 +23,7 @@ label {
 }
 
 .field {
-  display:block;
+  display: block;
   border: 1px solid black;
   width: 600px;
   height: 110px;
@@ -52,4 +52,41 @@ h1 {
   border: none;
   background-color: #0ca8db;
   color: rgba(239, 255, 10, 0.993);
+}
+.footer {
+  margin-top: 120px;
+  background-color: #0ca8db;
+  padding: 12px;
+  width: 100%;
+}
+
+.footer p {
+  font-size: 20px;
+  text-align: center;
+  padding: 12px;
+  color: white;
+}
+
+.socials-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.socials p {
+  margin-bottom: 20px;
+}
+
+.social-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.line {
+  margin-bottom: 12px;
 }
