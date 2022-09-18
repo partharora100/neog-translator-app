@@ -3,7 +3,7 @@ const inputEl = document.querySelector(".input");
 const outputEl = document.querySelector(".output");
 const button = document.querySelector(".button");
 
-const serverURL = "https://api.funtranslation.com/translate/ferb-latin.json";
+const serverURL = "https://api.funtranslations.com/translate/ferb-latin.json";
 
 function getTranslationURL(text) {
   const translationURL = serverURL + "?" + "text=" + text;
